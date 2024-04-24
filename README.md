@@ -1,13 +1,17 @@
 # linux_api
 
-목적 : 리눅스 시스템 공부
+// 목적
 
-참고도서 : Michael Kerrisk. (2012). 리눅스 API의 모든 것 기초 리눅스 API(김기주 외 5인 옮김, Vol.1). 에이콘. (원서출판 2010).
+1. 리눅스 시스템 공부
 
-개발환경
+// 참고도서 
 
-Windows 11 WSL
+1. Michael Kerrisk. (2012). 리눅스 API의 모든 것 기초 리눅스 API(김기주 외 5인 옮김, Vol.1). 에이콘. (원서출판 2010).
 
-Ubuntu 22.04.3 LTS
+// 개발환경
 
-glibc 2.35
+1. Windows 11 WSL
+
+2. Ubuntu 22.04.3 LTS
+
+3. glibc 2.35
