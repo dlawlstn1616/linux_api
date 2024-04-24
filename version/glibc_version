@@ -1,0 +1,18 @@
+// 해당 명령어를 수행
+$ /lib/libc.so.6
+
+// 만일 오류 발생 시, 간단한 c 파일 test을 만들어서 명령어 수행
+$ ldd test | grep libc
+
+
+// c 언어로 작성된 코드를 돌리면 같은 결과를 얻을 수 있다. 
+#include <stdio.h>
+#include <gnu/libc-version.h>
+
+const char *gnu_get_libc_version(void);
+
+int main(int argc, char* argv[])
+{
+        puts(gnu_get_libc_version());
+        return 0;
+}
